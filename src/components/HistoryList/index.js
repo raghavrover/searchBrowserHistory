@@ -131,6 +131,7 @@ class HistoryList extends Component {
             </div>
           </div>
         </div>
+        //Conditional rendering for displaying current browser history
         {length !== 0 && (
           <div className="history-items-container">
             <ul className="history-items-list">
